@@ -1,7 +1,7 @@
-module content
+module github.com/tinkertect/nonsense/content
 
-require nonsense/arithmetic v1.0.0
+go 1.20
 
-replace (
-	nonsense/arithmetic v1.0.0 => ../arithmetic
-)
+require github.com/tinkertect/nonsense/arithmetic v0.0.0-20230720223019-7bd5351be5ea
+
+replace github.com/tinkertect/nonsense/arithmetic v0.0.0-20230720223019-7bd5351be5ea => ../arithmetic

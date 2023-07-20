@@ -2,7 +2,7 @@ package content
 
 import (
 	"fmt"
-	"nonsense/arithmetic"
+	"github.com/tinkertect/nonsense/arithmetic"
 )
 
 type Op = func(int) int
